@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-20T15:41:54.452Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="nVOOoVknXzAnsq9OyXPA" version="12.7.2" type="github">
+<mxfile host="www.draw.io" modified="2020-02-20T16:02:53.204Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="S3KjaGBHnunS54mJZNQu" version="12.7.2" type="github" pages="2">
   <diagram id="Lx7UjUvaqmN4qIO5GQPM" name="第 1 页">
     <mxGraphModel dx="1595" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -461,6 +461,78 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="231" y="410.52941176470586" as="sourcePoint" />
             <mxPoint x="90.52941176470586" y="410.52941176470586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BcQCYOnj26xcvK1QRzGk" name="第 2 页">
+    <mxGraphModel dx="768" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-0" />
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-1" parent="FvDFjdR7gVoKa_HivH6m-0" />
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-2" value="物流仓库核心业务（1）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F8CECC;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="150" y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-3" value="物流仓库支撑业务（2-4）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="440" y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-4" value="仓储进程事件管理中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F8CECC;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="150" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-5" value="虚拟机、容器事件管理中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="440" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="FvDFjdR7gVoKa_HivH6m-1" source="FvDFjdR7gVoKa_HivH6m-10" target="FvDFjdR7gVoKa_HivH6m-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="FvDFjdR7gVoKa_HivH6m-1" source="FvDFjdR7gVoKa_HivH6m-10" target="FvDFjdR7gVoKa_HivH6m-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="FvDFjdR7gVoKa_HivH6m-1" source="FvDFjdR7gVoKa_HivH6m-10" target="FvDFjdR7gVoKa_HivH6m-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="366" y="290" />
+              <mxPoint x="505" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="FvDFjdR7gVoKa_HivH6m-1" source="FvDFjdR7gVoKa_HivH6m-10" target="FvDFjdR7gVoKa_HivH6m-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="366" y="290" />
+              <mxPoint x="215" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-10" value="基于全局资源视图的事件调度器（1）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#B9E0A5;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="261" y="300" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-11" value="物流中心运行处理器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F8CECC;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="150" y="390" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-12" value="虚拟机、容器事件处理器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="450" y="390" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-13" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="287" y="400" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-14" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-181;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="424" y="400" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-15" value="&lt;font style=&quot;font-size: 16px&quot;&gt;部署模型与资源映射关系&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="FvDFjdR7gVoKa_HivH6m-1">
+          <mxGeometry x="306" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FvDFjdR7gVoKa_HivH6m-1" source="FvDFjdR7gVoKa_HivH6m-2" target="FvDFjdR7gVoKa_HivH6m-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="280" as="sourcePoint" />
+            <mxPoint x="340" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FvDFjdR7gVoKa_HivH6m-1" source="FvDFjdR7gVoKa_HivH6m-3" target="FvDFjdR7gVoKa_HivH6m-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="190" as="sourcePoint" />
+            <mxPoint x="260" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
