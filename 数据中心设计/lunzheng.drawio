@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-06T11:54:13.919Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="7dsn-zgVcuDrwp51owkA" version="12.8.1" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-03-06T12:53:04.296Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="ej4gf-aWXBGzbZ3Ty3sN" version="12.8.1" type="github" pages="2">
   <diagram id="Lx7UjUvaqmN4qIO5GQPM" name="第 1 页">
     <mxGraphModel dx="1835" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -471,16 +471,16 @@
       <root>
         <mxCell id="FvDFjdR7gVoKa_HivH6m-0" />
         <mxCell id="FvDFjdR7gVoKa_HivH6m-1" parent="FvDFjdR7gVoKa_HivH6m-0" />
-        <mxCell id="FvDFjdR7gVoKa_HivH6m-2" value="物流仓库核心业务（1）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F8CECC;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-2" value="物流仓库核心业务（90%）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F8CECC;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
           <mxGeometry x="150" y="120" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FvDFjdR7gVoKa_HivH6m-3" value="物流仓库支撑业务（2-4）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-3" value="物流仓库支撑业务（10%）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
           <mxGeometry x="440" y="120" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FvDFjdR7gVoKa_HivH6m-4" value="仓储进程事件管理中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F8CECC;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-4" value="物流仓储进程事件管理中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F8CECC;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
           <mxGeometry x="150" y="210" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FvDFjdR7gVoKa_HivH6m-5" value="虚拟机、容器事件管理中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-5" value="业务RMI事件管理中心" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
           <mxGeometry x="440" y="210" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvDFjdR7gVoKa_HivH6m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="FvDFjdR7gVoKa_HivH6m-1" source="FvDFjdR7gVoKa_HivH6m-10" target="FvDFjdR7gVoKa_HivH6m-11" edge="1">
@@ -505,13 +505,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FvDFjdR7gVoKa_HivH6m-10" value="基于全局资源视图的事件调度器（1）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#B9E0A5;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-10" value="基于动态分区的全局资源调度器（1）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#B9E0A5;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
           <mxGeometry x="261" y="300" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvDFjdR7gVoKa_HivH6m-11" value="物流中心运行处理器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F8CECC;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
           <mxGeometry x="150" y="390" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FvDFjdR7gVoKa_HivH6m-12" value="虚拟机、容器事件处理器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
+        <mxCell id="FvDFjdR7gVoKa_HivH6m-12" value="业务RMI事件处理器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
           <mxGeometry x="450" y="390" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvDFjdR7gVoKa_HivH6m-13" value="" style="triangle;whiteSpace=wrap;html=1;" parent="FvDFjdR7gVoKa_HivH6m-1" vertex="1">
