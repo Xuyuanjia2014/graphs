@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-07T15:38:38.708Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="uzpABSJoAzmOm9bsqHZk" version="12.8.1" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-03-07T15:39:12.656Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="S2vZQMrrKhggyDXFvbSF" version="12.8.1" type="github" pages="2">
   <diagram id="Lx7UjUvaqmN4qIO5GQPM" name="第 1 页">
     <mxGraphModel dx="1835" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,7 +187,7 @@
         <mxCell id="ZrPnzG4gwPI1K-78CBUd-56" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/social-media-2183/512/social__media__social_media__wifi_-128.png;dashed=1;strokeColor=#007FFF;strokeWidth=2;fillColor=#007FFF;rotation=45;imageBackground=none;" parent="ZrPnzG4gwPI1K-78CBUd-49" vertex="1">
           <mxGeometry x="28.984304932735427" y="8.366463826910092" width="14.059656990008655" height="14.059656990008655" as="geometry" />
         </mxCell>
-        <mxCell id="ZrPnzG4gwPI1K-78CBUd-57" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;新型服务支撑&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;fillColor=#007FFF;" parent="ZrPnzG4gwPI1K-78CBUd-49" vertex="1">
+        <mxCell id="ZrPnzG4gwPI1K-78CBUd-57" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;物联网智能设备&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#007FFF;fillColor=#007FFF;" parent="ZrPnzG4gwPI1K-78CBUd-49" vertex="1">
           <mxGeometry x="21" y="70" width="99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZrPnzG4gwPI1K-78CBUd-58" value="" style="group" parent="1" vertex="1" connectable="0">
