@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-13T09:33:47.002Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="rtFYeJm92GSguYj9MMKh" version="12.8.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-03-13T09:41:05.650Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="gb4hwTXjdeAw4WEbWtFa" version="12.8.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="vue-element-admin登陆流程">
     <mxGraphModel dx="782" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
         <mxCell id="RnWQix-DbZzwRrK9jwIk-17" value="&lt;font&gt;Scheduler&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;labelBorderColor=#FFFFFF;fontColor=#4D4D4D;" vertex="1" parent="RnWQix-DbZzwRrK9jwIk-1">
           <mxGeometry x="230" y="313" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RnWQix-DbZzwRrK9jwIk-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#6666FF;" edge="1" parent="RnWQix-DbZzwRrK9jwIk-1" source="RnWQix-DbZzwRrK9jwIk-19" target="RnWQix-DbZzwRrK9jwIk-26">
+        <mxCell id="RnWQix-DbZzwRrK9jwIk-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#6666FF;exitX=0.625;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RnWQix-DbZzwRrK9jwIk-1" source="RnWQix-DbZzwRrK9jwIk-19" target="RnWQix-DbZzwRrK9jwIk-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RnWQix-DbZzwRrK9jwIk-19" value="&lt;font color=&quot;#3333ff&quot;&gt;node-exporter&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;labelBorderColor=none;fontColor=#4D4D4D;" vertex="1" parent="RnWQix-DbZzwRrK9jwIk-1">
@@ -197,7 +197,7 @@
         <mxCell id="RnWQix-DbZzwRrK9jwIk-24" value="&lt;font&gt;controller-manager&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;labelBorderColor=#FFFFFF;fontColor=#4D4D4D;" vertex="1" parent="RnWQix-DbZzwRrK9jwIk-1">
           <mxGeometry x="290" y="350" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RnWQix-DbZzwRrK9jwIk-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=16;fontColor=#6666FF;" edge="1" parent="RnWQix-DbZzwRrK9jwIk-1" source="RnWQix-DbZzwRrK9jwIk-25" target="RnWQix-DbZzwRrK9jwIk-22">
+        <mxCell id="RnWQix-DbZzwRrK9jwIk-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=16;fontColor=#6666FF;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="RnWQix-DbZzwRrK9jwIk-1" source="RnWQix-DbZzwRrK9jwIk-25" target="RnWQix-DbZzwRrK9jwIk-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="375" y="230" />
@@ -260,6 +260,15 @@
         </mxCell>
         <mxCell id="RnWQix-DbZzwRrK9jwIk-35" value="&lt;font&gt;kube-&lt;br&gt;Proxy&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;labelBorderColor=#FFFFFF;fontColor=#4D4D4D;" vertex="1" parent="RnWQix-DbZzwRrK9jwIk-1">
           <mxGeometry x="476" y="239" width="44" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWQix-DbZzwRrK9jwIk-56" value="元数据读写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="RnWQix-DbZzwRrK9jwIk-1">
+          <mxGeometry x="170" y="264" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWQix-DbZzwRrK9jwIk-57" value="调度控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="RnWQix-DbZzwRrK9jwIk-1">
+          <mxGeometry x="265" y="265" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWQix-DbZzwRrK9jwIk-60" value="自定义资源控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="RnWQix-DbZzwRrK9jwIk-1">
+          <mxGeometry x="270" y="290" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
